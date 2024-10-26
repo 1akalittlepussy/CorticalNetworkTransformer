@@ -1,10 +1,15 @@
-# Cortical Network Transformer
+# Cortical Classification with Transformer Models
 
-This repository contains code for a Transformer-based model designed for cortical classification tasks. The implementation includes data loading, model architecture, and utilities for calculating correlations and binarizing data.
+This project implements a Transformer-based model for classifying cortical data. It includes various modules for data loading, processing, and model definition.
 
-## File Structure
+## Project Structure
 
-├── train.py # Main file to run the training process 
-├── load_data.py # Dataset loading script 
-├── code_utils.py # Utilities for calculating correlations and binarizing data 
-├── Transformer/ │ ├── models.py # CorticalNetworkTransformer model definition │ ├── layers.py # Transformer encoding layers │ └── position_encoding.py# Position encoding for the Transformer model
+- `train.py`: The main file to run the training process.
+- `load_data.py`: Module for loading and preprocessing the dataset.
+- `code_utils.py`: Contains utility functions for calculating correlations and binarization.
+- `Transformer/models.py`: Defines the `CorticalNetworkTransformer` model architecture.
+- `Transformer/layers.py`: Implementation of the Transformer encoder layers.
+- `Transformer/position_encoding.py`: Functions for position encoding used in the Transformer model.
+
+
+
